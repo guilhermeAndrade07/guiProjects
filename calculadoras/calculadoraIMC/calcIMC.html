@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calcIMC.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Calculadora de IMC</h1>
+        <form action="#" method="post" id="formulario"> 
+            <div class="dados">
+                <label for="nome">Nome: </label>
+                <input type="text" class="nome">
+            </div>
+            <div class="dados">
+                <label for="peso">Peso(kg): </label>
+                <input type="text" class="peso">
+            </div>
+            <div class="dados">
+                <label for="altura">Altura(m): </label>
+                <input type="text" class="altura">
+            </div>
+            <button type="submit">Calcular</button>
+            <div class="result"> </div>
+            <button type="reset">Limpar</button>
+            <div class="menu">
+                <button>menu</button>
+            </div>
+            <div class="menu-opcoes">
+                <ul>
+                    <li><a href="#">Histórico dos cálculos</a></li>
+                    <li><a href="../calculadoraTrad/index.html">Calculadora Tradicional</a></li>
+                </ul>
+            </div>
+        </form>
+    </section>
+
+    <script src="calcIMC.js"></script>
+</body>
+
+</html>
