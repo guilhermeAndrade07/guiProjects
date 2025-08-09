@@ -26,7 +26,7 @@ body { /* Corpo da página */
 .container { /* Conteiner in white */
     text-align: center;
     width: 100%;
-    max-width: 350px; /* limite máximo para desktop */
+    max-width: 340px; /* limite máximo para desktop */
     display: flex;
     flex-flow: column nowrap;
     background: #fff;
