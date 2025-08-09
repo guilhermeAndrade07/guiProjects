@@ -7,22 +7,22 @@
     outline: 0;
 }
 
-body {
+body { /* Corpo da página */
     margin: 0;
     padding: 0;
     background: rgba(0, 77, 0, 0.986);
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
-
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.container {
-    width: 75%;
+.container { /* Conteiner in white */
+    width: 90%;
+    max-width: 380px; 
     margin: 50px auto;
     background: #fff;
     padding: 20px;
@@ -34,6 +34,7 @@ body {
     align-items: center;
 }
 
+/* Labels, inputs and buttons for box conteiner */
 form input, form label {
     display: block;
     width: 100%;
@@ -72,9 +73,11 @@ form button:hover {
     background: rgb(139, 139, 139);
 }
 
+/* Results of calculate IMC*/
 .paragrafo-resultado, .bad {
     background-color: rgb(2, 112, 57);
-    padding: 5px 0px;
+    margin: 10px;
+    padding: 2px 0px;
     text-align: center;
 }
 
@@ -84,18 +87,19 @@ form button:hover {
     color: black;
 }
 
+/* Options of Menu */
 .menu-opcoes {
     display: none;
-    margin-top: 10px;
+    margin: 10px auto;
     width: 93%;
-    margin-left: 18px;
+    
 }
 
 .menu-opcoes ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
-    margin: 0;
+
 }
 
 .menu-opcoes ul li a {
@@ -104,7 +108,7 @@ form button:hover {
     color: white;
     text-align: center;
     background-color: #468149;
-    padding: 5px;
+    padding: 2px;
     margin-top: 5px;
     border-radius: 10px;
 }
