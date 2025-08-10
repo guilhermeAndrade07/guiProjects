@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz do gui</title>
+</head>
+<body>
+    <div class="tela" id="tela">
+        <header>
+            <h1>Quiz do Gui</h1>
+        </header>
+        <section>
+            <div class="pergunta">
+                <h2>YASMIM ALVES FURLANETTO PASCUARELLO</h2>
+                <h2>Você aceita namorar comigo?</h2>
+            </div>
+            <div class="btn">
+                <button class="botao" id="simBtn" >SIM</button>
+                <button class="botao">NÃO</button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+    const tela = document.getElementById('tela');
+    const simBtn = document.getElementById('simBtn');
+
+    simBtn.addEventListener('click', () => {
+        tela.classList.add('fade-out');
+        setTimeout(() => {
+        window.location.href = "../pagsimm/pagSim.html";
+        }, 700);
+    });
+
+    </script>
+
+</body>
+</html>

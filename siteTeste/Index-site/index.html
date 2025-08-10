@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz do gui</title>
+</head>
+<body>
+    <div class="tela" id="tela">
+        <header>
+            <h1>Quiz do Gui</h1>
+        </header>
+        <section>
+            <div class="pergunta">
+                <h2>Está pronta para o desafio?</h2>
+            </div>
+            <div class="btn">
+                <button class="botao" id="simBtn">SIM</button>
+                <button class="botao" id="naoBtn">NÃO</button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+    const tela = document.getElementById('tela');
+    const simBtn = document.getElementById('simBtn');
+    const naoBtn = document.getElementById('naoBtn');
+
+    simBtn.addEventListener('click', () => {
+        tela.classList.add('fade-out');
+        setTimeout(() => {
+        window.location.href = "../pag02/pag02.html";
+        }, 700);
+    });
+
+    naoBtn.addEventListener('click', () => {
+        tela.classList.add('fade-out');
+        setTimeout(() => {
+        window.location.href = "../pagVoltar/index.html";
+        }, 700);
+    });
+    </script>
+
+</body>
+</html>

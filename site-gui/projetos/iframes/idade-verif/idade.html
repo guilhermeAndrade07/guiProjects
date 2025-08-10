@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Verificador de Idade</h1>
+    <section>
+        <h3>Digite seus Dados abaixo: </h3>
+        <div>
+            <p class="texto1">
+                Nome: <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required>
+            </p>
+            <p class="texto2">
+                Nascimento: <input type="number" name="ano" id="iano"  placeholder="Ano de Nascimento" required>
+            </p>
+            <input type="button" value="Verificador" onclick="verificar()" class="botao">
+        </div>
+        <div id="resultado"></div>
+    </section>
+    <script src="idade.js"></script>
+</body>
+</html>
