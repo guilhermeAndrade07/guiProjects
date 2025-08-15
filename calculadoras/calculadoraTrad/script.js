@@ -6,7 +6,7 @@ function Calculadora() {
         this.capturaEnter();
     };
 
-    this.capturaEnter = () => {
+    this.capturaEnter = () => { // capturar o Enter
         document.addEventListener('keydown', (event) => {
             if (event.key === "Enter") {
                 this.realizaConta();
@@ -14,7 +14,7 @@ function Calculadora() {
         });
     };
 
-    this.teclasNumericas = () => {
+    this.teclasNumericas = () => { // capturar o as teclas numericas
         document.addEventListener('keydown', (e) => {
             const teclasPermitidas = "0123456789+-*/.()";
             if(teclasPermitidas.includes(e.key)) {
@@ -23,7 +23,7 @@ function Calculadora() {
         });
     };
 
-    this.capturarCliques = () => {
+    this.capturarCliques = () => { // capturar os clicks
         document.addEventListener('click', event => {
             const el = event.target;
             if (el.classList.contains('btn-num')) this.addNumDisplay(el);
@@ -58,7 +58,7 @@ function Calculadora() {
     this.del = () => this.display.value = this.display.value.slice(0, -1);
 }
 
-/* ---- MENU HAMBÚRGUER ---- */
+// menu burguer
 const btnMenu = document.querySelector('.menu button');
 const menuOpcoes = document.querySelector('.menu-opcoes');
 

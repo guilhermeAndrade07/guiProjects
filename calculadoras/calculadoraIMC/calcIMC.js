@@ -71,7 +71,7 @@ function setResultado(msg, isValid) { // função que recebe uma mensagem e conf
     resultado.appendChild(p);
 }
 
-/* ---- MENU HAMBÚRGUER ---- */
+// menu burguer
 const btnMenu = document.querySelector('.menu button');
 const menuOpcoes = document.querySelector('.menu-opcoes');
 
