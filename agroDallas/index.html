@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AgroDallas</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/agrodallas.png" alt="logo_agroDallas">
+        <h1>Calculadora <br><br> AGRODALLAS </h1>
+    </header>
+    <div class="container">
+        <div class="cultivo">
+            <h2>Cultivo:</h2>
+            <select name="cultivo" class="selectCultivo">
+                <option value="" selected>Selecione o cultivo</option>
+                <option value="hortalicas">Hortaliças</option>
+                <option value="grao">Grãos</option>
+                <option value="frutifera">Frutíferas</option>
+            </select>
+        </div>
+        <div class="produto">
+            <h2>Produto:</h2>
+            <select name="produto" class="selectProduto">
+                <option value="" selected>Selecione o produto</option>
+                <option value="npk">NPK</option>
+                <option value="trikronix">TriKronix</option>
+                <option value="nitro">Nitro30</option>
+                <option value="phos">Phos30</option>
+                <option value="calMag">CalMag+</option>
+                <option value="turfa">Turfa Gold</option>
+            </select>
+        </div>
+        <div class="litragemBomba">
+            <h2>Litragem da bomba / Tanque</h2>
+            <input type="text" id="litroBomba" placeholder="Ex.: 20">
+            <select name="tanque" class="selectTanque">
+                <option value="L">L</option>
+                <option value="ml">mL</option>
+                <option value="gal">gal</option>
+                <option value="cc">cc</option>
+            </select>
+        </div>
+        <div class="botao">
+            <button type="submit" class="btnCalcular">CALCULAR</button>
+        </div>
+        <div class="resultado">
+            <h2>Diluição</h2>
+            <p class="resultadoTxt"> ghvvhyvvyyyyygyygyygygy </p>
+        </div>
+    </div>
+</body>
+</html>

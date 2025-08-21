@@ -1,0 +1,129 @@
+@charset 'UTF-8';
+
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+:root {
+    --fonteDestaque: "Oxanium", sans-serif;
+    --fontePadrao: "Arial, Verdana, Helvetica", sans-serif;
+
+    --corVerde: #125139;
+    --corLaranja: #bf5c06;
+    --corBranca: #fff;
+    --corPreta: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontePadrao);
+    line-height: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    color: var(--corVerde);
+    display: flex;
+    flex-direction: row nowrap;
+}
+
+header img {
+    height: 120px;
+}
+
+header h1 {
+    font-family: var(--fonteDestaque);
+    text-shadow: 2px 2px 4px black;
+    font-size: 2.2em;
+    margin-right: 15px;
+}
+
+.container {
+    background-color: var(--corLaranja);
+    width: 100%;
+    max-width: 325px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px black;
+}
+
+.cultivo, .produto {
+    margin-left: 5px;
+}
+
+.cultivo h2, .produto h2 {
+    font-size: 1.7em;
+}
+
+.selectCultivo, .selectProduto {
+    padding: 6px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.litragemBomba {
+    margin-left: 5px;
+}
+
+.litragemBomba h2 {
+    font-size: 1.7em;
+}
+
+#litroBomba, .selectTanque {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.selectTanque {
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCalcular {
+    background-color: var(--corVerde);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btnCalcular:hover {
+    padding: 8px;
+    width: 38%;
+}
+
+.resultado {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.resultadoTxt {
+    background-color: var(--corBranca);
+    padding: 10px;
+    border-radius: 15px;
+}
