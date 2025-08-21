@@ -61,7 +61,7 @@ header h1 {
 }
 
 .cultivo, .produto {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .cultivo h2, .produto h2 {
@@ -79,7 +79,7 @@ header h1 {
 }
 
 .litragemBomba {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .litragemBomba h2 {
