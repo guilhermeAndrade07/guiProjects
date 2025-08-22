@@ -64,13 +64,9 @@ header h1 {
     box-shadow: 10px 10px 30px black;
 }
 
-h2 {
-    font-size: 1.7em;
+h3 {
+    font-size: 1.4em;
     text-align: center;
-}
-
-.cultivo h2 {
-    margin-top: 0px;
 }
 
 .selectCultivo, .selectProduto {
@@ -91,7 +87,7 @@ h2 {
 }
 
 
-#litroBomba, .selectTanque {
+#litros, .selectTanque {
     padding: 5px;
     border: 2px solid black;
     margin-top: -1px;
@@ -129,7 +125,6 @@ h2 {
 }
 
 .resultado {
-    display: none;
     text-align: center;
     margin-right: 10px;
 }
