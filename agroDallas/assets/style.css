@@ -63,7 +63,7 @@ header h1 {
     box-shadow: 10px 10px 30px black;
 }
 
-.cultivo h2, .produto h2 {
+h2 {
     font-size: 1.7em;
     text-align: center;
 }
@@ -77,14 +77,13 @@ header h1 {
     cursor: pointer;
 }
 
-.litragemBomba h2 {
-    font-size: 1.7em;
-    text-align: center;
+.litragemBomba {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-#litroBomba {
-    margin-left: 25px;
-}
 
 #litroBomba, .selectTanque {
     padding: 5px;
@@ -94,6 +93,7 @@ header h1 {
 .selectTanque {
     font-weight: bold;
     cursor: pointer;
+    margin-left: 2px;
 }
 
 .botao {
