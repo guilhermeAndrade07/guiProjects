@@ -127,10 +127,17 @@ h3 {
 .resultado {
     text-align: center;
     margin-right: 10px;
+    margin-top: -10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .resultadoTxt {
     background-color: var(--corBranca);
     padding: 10px;
-    border-radius: 15px;
+    width: 280px;
+    margin-top: -10px;
+    border-radius: 5px;
 }
