@@ -33,44 +33,43 @@ body {
 header {
     color: var(--corVerde);
     display: flex;
-    flex-direction: row nowrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 header img {
-    height: 135px;
+    height: 190px;
+    margin-bottom: -50px;
 }
 
 header h1 {
     font-family: var(--fonteDestaque);
     text-shadow: 2px 2px 2px black;
     font-size: 2.4em;
-    margin-right: 20px;
 }
 
 .container {
     background-color: var(--corLaranja);
     width: 100%;
     max-width: 325px;
+    margin-bottom: 20px;
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    border-radius: 15px;
-    box-shadow: 10px 10px 50px black;
-}
-
-.cultivo, .produto {
-    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px black;
 }
 
 .cultivo h2, .produto h2 {
     font-size: 1.7em;
+    text-align: center;
 }
 
 .selectCultivo, .selectProduto {
     padding: 6px;
-    width: 70%;
     border: 2px solid black;
     border-radius: 10px;
     font-size: 0.9em;
@@ -78,12 +77,13 @@ header h1 {
     cursor: pointer;
 }
 
-.litragemBomba {
-    margin-left: 10px;
-}
-
 .litragemBomba h2 {
     font-size: 1.7em;
+    text-align: center;
+}
+
+#litroBomba {
+    margin-left: 25px;
 }
 
 #litroBomba, .selectTanque {
@@ -109,16 +109,15 @@ header h1 {
     color: white;
     font-size: 1em;
     font-weight: bold;
+    margin-left: 15px;
     border: 2px solid black;
     border-radius: 10px;
-    width: 40%;
     padding: 10px;
     margin-right: 10px;
 }
 
 .btnCalcular:hover {
     padding: 8px;
-    width: 38%;
     background-color: #1e855d;
 }
 
