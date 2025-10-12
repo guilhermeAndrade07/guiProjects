@@ -123,6 +123,7 @@ main {
     margin-bottom: 20px;
     border-radius: 8px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
 }
