@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 50px 0px;
+    text-shadow: 2px 2px 4px #000;
+    color: white;
+    text-shadow: 5px 5px 8px #0B551A;
+}
+
+nav {
+    background: #2222229b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 15px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #0B551A;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    min-height: 400px;
+}
+
+article.card-center {
+    background: #0B551A;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px white;
+}
+
+.sobre {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sobre img {
+    width: 70%;
+    height: 350px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-projetos {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.contatos {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    background: #000;
+    color: #0B551A;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 15px;
+}
